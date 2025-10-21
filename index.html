@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADVORUF GmbH</title>
+    <script src="/assets/tailwind.js"></script>
+</head>
+<body>
+
+<!-- Header -->
+
+<header class="bg-[#052f48] shadow-sm fixed top-0 left-0 w-full z-50">
+    <div class="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
+        <!-- Logo -->
+        <a href="#" class="flex items-center">
+            <img src="/assets/images/advoruf-logo.svg" alt="ADVORUF Logo" class="h-12 w-auto object-contain" />
+        </a>
+
+        <!-- Nav Links (Home, About, Contact) -->
+        <nav class="flex items-center gap-8 font-medium">
+            <a href="#contact" class="nav-link text-xl text-white hover:text-white active">Kontakt</a>
+        </nav>
+    </div>
+</header>
+
+<!-- ===== HERO SECTION (Reduced Height) ===== -->
+<section id="home" class="relative h-[55vh] flex items-center justify-center text-center text-white mt-16">
+    <img src="https://images.unsplash.com/photo-1521791055366-0d553872125f?q=80&w=1920&auto=format&fit=crop"
+         alt="Hero Background"
+         class="absolute inset-0 w-full h-full object-cover" />
+    <div class="absolute inset-0 bg-gradient-to-b from-[#052f48]/80 via-[#073a5f]/70 to-[#0a4b78]/70"></div>
+
+    <div class="relative z-10 max-w-2xl px-6">
+        <h1 class="text-5xl md:text-6xl font-extrabold mb-4 leading-tight">
+            Professionelle Rechtsberatung <br />
+            <span class="text-blue-200">– schnell, verbindlich, fair</span>
+        </h1>
+        <p class="text-xl text-gray-100 mb-8">
+            Vertrauen Sie auf erfahrene Rechtsanwälte – wir helfen Ihnen kompetent und diskret bei allen Rechtsfragen.
+        </p>
+    </div>
+</section>
+
+<!-- ===== Main content ===== -->
+<section id="about" class="py-20 bg-[#f8fbfd] text-gray-800">
+    <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-4xl font-semibold text-[#052f48] mb-12">Über die ADVORUF GmbH</h2>
+
+        <div class="space-y-6 text-left leading-relaxed text-xl">
+            <h2 class="text-3xl font-semibold text-[#052f48] mt-10">Herzlich Willkommen beim Angebot der ADVORUF GmbH!</h2>
+            <p>
+                Sie haben ein rechtliches Problem? Sie brauchen eine verbindliche Rechtsberatung?<br>
+                Dann dürfte Sie unser Angebot interessieren!
+            </p>
+
+            <p>
+                Egal, ob Sie einen Rechtsstreit befürchten, einen Unfall im Straßenverkehr erlitten haben und Ansprüche geltend machen möchten, Beistand in Straf- und Ordnungswidrigkeitsverfahren benötigen, Ärger mit Finanzbehörden haben oder sonst allgemeine Fragen zum Thema Recht haben:
+            </p>
+
+            <p>
+                Werden Sie Mitglied bei der <strong>ADVORUF GmbH!</strong>
+                <br>…erfahren Sie auf den folgenden Seiten mehr über uns.
+            </p>
+
+            <h2 class="text-3xl font-semibold text-[#052f48] mt-10">Was wir sind</h2>
+            <p>
+                Die ADVORUF GmbH ist ein Dienstleister, der die anwaltliche telefonische Erstberatung vermittelt. Unsere angeschlossenen Fachanwälte beraten Sie kompetent und zuverlässig in Ihrem Fachgebiet.
+            </p>
+
+            <h2 class="text-3xl font-semibold text-[#052f48] mt-8">Was wir nicht sind</h2>
+            <p>
+                Wir sind weder ein Rechtsschutzversicherer, noch leisten wir selbst Rechtsberatung. Unsere Mitglieder werden von uns zu den bei uns angeschlossenen Rechtsanwälten vermittelt. Diese Rechtsanwälte sind jeweils in ihrem Fachgebiet spezialisiert und erfahrene Fachanwälte.
+            </p>
+
+            <p>
+                Sie sind freiberuflich/selbstständig tätig und führen die Beratung ausschließlich direkt mit den Mitgliedern durch. Dies stellt sicher, dass die Beratung unabhängig erfolgt und nicht im Interesse eines Versicherers oder Dritten steht.
+            </p>
+
+            <p>
+                Ganz gleich, ob es um die alljährlich wiederkehrende Streitigkeit über die Nebenkostenabrechnung geht, der Arbeitgeber Sie abmahnt, Ihr Nachbar laut Musik hört oder Sie plötzlich von Musikverlagen in Anspruch genommen werden – als Mitglied der ADVORUF können Sie all diese Fragen anwaltlich klären lassen – und das zu einem monatlich fixen Preis.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="py-20 bg-[#e6f0f8]">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+        <h2 class="text-4xl font-semibold text-[#052f48] mb-8">Kontaktieren Sie uns</h2>
+        <p class="text-gray-700 text-xl mb-10">Wir sind werktags telefonisch und über WhatsApp erreichbar.</p>
+
+        <!-- Contact card content: phone + email on the left, QR on the right -->
+        <div class="bg-white rounded-2xl shadow-lg p-10 flex flex-col md:flex-row justify-around items-center gap-10 border border-[#052f48]/10">
+            <!-- Left column: phone and email -->
+            <div class="text-center md:text-left space-y-4">
+                <!-- Phone (icon + link) -->
+                <div class="flex items-center space-x-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-6 h-6 text-[#052f48]">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15 .621 0 1.233-.037 1.833-.108a1.5 1.5 0 001.234-1.476v-3.096a1.5 1.5 0 00-1.021-1.415l-3.27-1.09a1.5 1.5 0 00-1.637.42l-.963 1.077a11.04 11.04 0 01-4.848-4.848l1.077-.963a1.5 1.5 0 00.42-1.637l-1.09-3.27a1.5 1.5 0 00-1.415-1.021H3.834a1.5 1.5 0 00-1.476 1.234A15.003 15.003 0 002.25 6.75z" />
+                    </svg>
+                    <a href="tel:+491234567890" class="text-[#064c75] text-lg font-medium no-underline">+49 123 4567890</a>
+                </div>
+
+                <!-- Email (icon + link) -->
+                <div class="flex items-center space-x-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-6 h-6 text-[#052f48]">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25H4.5A2.25 2.25 0 012.25 17.25V6.75m19.5 0L12 12.75 2.25 6.75m19.5 0A2.25 2.25 0 0019.5 4.5H4.5a2.25 2.25 0 00-2.25 2.25" />
+                    </svg>
+                    <a href="mailto:info@advoruf.de" class="text-[#064c75] text-lg font-medium no-underline">info@advoruf.de</a>
+                </div>
+            </div>
+
+            <!-- Right column: WhatsApp QR / mobile link -->
+            <div class="flex-1 flex flex-col items-center justify-center">
+                <h3 class="text-xl font-semibold text-[#052f48] mb-2 flex items-center justify-center gap-2">
+
+
+                    <svg  class="w-6 h-6 text-[#075E54]"  viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Color-" transform="translate(-700.000000, -360.000000)" fill="#67C15E">
+                                <path d="M723.993033,360 C710.762252,360 700,370.765287 700,383.999801 C700,389.248451 701.692661,394.116025 704.570026,398.066947 L701.579605,406.983798 L710.804449,404.035539 C714.598605,406.546975 719.126434,408 724.006967,408 C737.237748,408 748,397.234315 748,384.000199 C748,370.765685 737.237748,360.000398 724.006967,360.000398 L723.993033,360.000398 L723.993033,360 Z M717.29285,372.190836 C716.827488,371.07628 716.474784,371.034071 715.769774,371.005401 C715.529728,370.991464 715.262214,370.977527 714.96564,370.977527 C714.04845,370.977527 713.089462,371.245514 712.511043,371.838033 C711.806033,372.557577 710.056843,374.23638 710.056843,377.679202 C710.056843,381.122023 712.567571,384.451756 712.905944,384.917648 C713.258648,385.382743 717.800808,392.55031 724.853297,395.471492 C730.368379,397.757149 732.00491,397.545307 733.260074,397.27732 C735.093658,396.882308 737.393002,395.527239 737.971421,393.891043 C738.54984,392.25405 738.54984,390.857171 738.380255,390.560912 C738.211068,390.264652 737.745308,390.095816 737.040298,389.742615 C736.335288,389.389811 732.90737,387.696673 732.25849,387.470894 C731.623543,387.231179 731.017259,387.315995 730.537963,387.99333 C729.860819,388.938653 729.198006,389.89831 728.661785,390.476494 C728.238619,390.928051 727.547144,390.984595 726.969123,390.744481 C726.193254,390.420348 724.021298,389.657798 721.340985,387.273388 C719.267356,385.42535 717.856938,383.125756 717.448104,382.434484 C717.038871,381.729275 717.405907,381.319529 717.729948,380.938852 C718.082653,380.501232 718.421026,380.191036 718.77373,379.781688 C719.126434,379.372738 719.323884,379.160897 719.549599,378.681068 C719.789645,378.215575 719.62006,377.735746 719.450874,377.382942 C719.281687,377.030139 717.871269,373.587317 717.29285,372.190836 Z" id="Whatsapp">
+
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+
+
+                    WhatsApp
+                </h3>
+                <div class="block md:block">
+                    <img
+                            src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&amp;data=https://wa.me/491234567890"
+                            alt="WhatsApp QR Code"
+                            class="mx-auto shadow rounded-lg border border-[#052f48]/20">
+                    <p class="text-gray-500 text-sm mt-2">
+                        Scannen Sie den QR-Code mit WhatsApp auf Ihrem Handy.
+                    </p>
+                </div>
+
+                <div class="hidden">
+                    <a
+                            href="https://wa.me/491234567890"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="inline-block mt-3 px-6 py-3 bg-[#052f48] text-white rounded-lg shadow hover:bg-blue-900 transition-all">
+                        WhatsApp öffnen
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="border-t border-[#052f48]/30 py-5 bg-white text-center">
+    <div class="flex flex-col items-center justify-center space-y-3 px-6 max-w-7xl mx-auto text-center">
+
+        <!-- Links -->
+        <div class="text-sm text-gray-600 space-x-6">
+            <a href="./impressum" class="text-[#052f48] font-semibold text-base no-underline hover:text-[#064c75] transition">Impressum</a>
+            <a href="./datenschutz" class="text-[#052f48] font-semibold text-base no-underline hover:text-[#064c75] transition">Datenschutzerklärung</a>
+        </div>
+
+        <!-- Copyright -->
+        <p class="text-sm text-gray-400">
+            © 2025 ADVORUF GmbH — Alle Rechte vorbehalten.
+        </p>
+    </div>
+</footer>
+
+<!--<div data-include="/partials/footer.html"></div>-->
+<!--<script src="/include.js"></script>-->
+
+</body>
+</html>
